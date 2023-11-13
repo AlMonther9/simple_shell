@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _getenv - get env variables
+ * _getenv - get envi variables
  * @env_var: env variable
  * Return: env variable result, its content
  */
