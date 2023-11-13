@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * search_path - search file between the path
- * @command: cmd
- * Return: cmd path
+ * search_path_func - A search file between the path.
+ * @command: cmd pr.
+ * Return: cmd pr path.
  */
 
-char *search_path(char *command)
+char *search_path_func(char *command)
 {
 	char *path = _getenv("PATH"), *path_cpy;
 	char **path_split;
