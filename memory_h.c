@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _calloc - function that allocates memory for an array, using malloc
+ * _calloc - Afunction that allocates memory for an array, using malloc
  * @nmemb: array
  * @size: size
  * Return: pointer or NULL
