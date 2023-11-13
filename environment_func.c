@@ -11,20 +11,20 @@ char *_getenv(char *env_var)
 	int i = 0, j;
 	int status;
 
-	while (environment[i])
+	while (environ[i])
 	{
 		status = 1;
 
-		for (j = 0; environment[i][j] != '='; j++)
+		for (j = 0; environ[i][j] != '='; j++)
 		{
-			if (environment[i][j] != env_var[j])
+			if (environ[i][j] != env_var[j])
 				status = 0;
 		}
 		if (status == 1)
 			break;
 		i++;
 	}
-	return (&environment[i][j + 1]);
+	return (&environ[i][j + 1]);
 }
 
 /**
@@ -34,9 +34,9 @@ void _env(void)
 {
 	int i = 0;
 
-	while (environment[i])
+	while (environ[i])
 	{
-		printf("%s\n", environment[i]);
+		printf("%s\n", environ[i]);
 		i++;
 	}
 }
