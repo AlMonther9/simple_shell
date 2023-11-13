@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - open shell, project base
- * Return: int
+ * main - project holder&base for test Open shell, project base.
+ * Return: int.
  */
 
 int main(void)
@@ -38,7 +38,7 @@ int main(void)
 		}
 
 		args = _split(buff, " ");
-		args[0] = search_path(args[0]);
+		args[0] = search_path_func(args[0]);
 
 		if (args[0] != NULL)
 			exit_status = execute(args);
