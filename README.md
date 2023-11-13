@@ -1,15 +1,15 @@
 <div align="center">
   <h1>Simple Shell <img src="https://cdn-icons-png.flaticon.com/128/6821/6821173.png" width=60 align=center> </h1>
   <h6>
-    <a href="https://github.com/felipevcc/holbertonschool-simple_shell#man-page-">Man Page</a>
+    <a href="https://github.com/AlMonther9/simple_shell#man-page-">Man Page</a>
     ·
-    <a href="https://github.com/felipevcc/holbertonschool-simple_shell#compilation-">Compilation</a>
+    <a href="https://github.com/AlMonther9/simple_shell#compilation-">Compilation</a>
     ·
-    <a href="https://github.com/felipevcc/holbertonschool-simple_shell#list-of-built-in-commands-">Commands</a>
+    <a href="https://github.com/AlMonther9/simple_shell#list-of-built-in-commands-">Commands</a>
     ·
-    <a href="https://github.com/felipevcc/holbertonschool-simple_shell#usage-">Usage</a>
+    <a href="https://github.com/AlMonther9/simple_shell#usage-">Usage</a>
   </h6>
-  <img src="https://img.shields.io/github/repo-size/felipevcc/holbertonschool-simple_shell?color=E1927F&labelColor=1a1e29&style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/AlMonther9/simple_shell?color=E1927F&labelColor=1a1e29&style=for-the-badge">
 </div>
 
 ## Description <img src="https://cdn-icons-png.flaticon.com/128/1903/1903496.png" width=45 align=center>
@@ -18,7 +18,7 @@ Simple Shell is a command line interpreter developed in C language that emulates
 
 ## Man page <img src="https://cdn-icons-png.flaticon.com/128/781/781103.png" width=50 align=center>
 
-The man page is a file wich explains in detail how Simple Shell works. If you want see a full explanation of this function you can run our man page this way:
+The man page is a file explaining how Simple Shell works in detail. If you want to see a full explanation of this function, you can run our man page this way:
 ```
 $ man ./man_1_simple_shell
 ```
@@ -29,7 +29,7 @@ $ man ./man_1_simple_shell
 
 ## Compilation <img src="https://cdn-icons-png.flaticon.com/128/8084/8084300.png" width=50 align=center>
 
-To compile the program this command has to be executed:
+To compile the program, this command has to be executed:
 ```
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
@@ -50,7 +50,7 @@ This list is of the built-in commands, apart from those found in the PATH.
 ## Usage <img src="https://cdn-icons-png.flaticon.com/512/3123/3123008.png" width=50 align=center>
 
 The shell can be used in interactive or non-interactive mode.
-The interactive mode is how the shell is normally used, the executable file is run and we can write commands, here is an example:
+The interactive mode is how the shell is normally used, the executable file is run and we can write commands, here's an example:
 ```
 $ ./hsh
 hsh$ ls
@@ -63,7 +63,7 @@ hsh$ exit
 $
 ```
 
-In the non-interactive mode you pass the command to the executable file with a pipe operator, as shown in the following example:
+In the non-interactive mode, you pass the command to the executable file with a pipe operator, as shown in the following example:
 ```
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
@@ -75,7 +75,7 @@ hsh main.c shell.c test_ls_2
 
 ## Authors <img src="https://cdn-icons-png.flaticon.com/128/2463/2463510.png" width=50 align=center>
 
-* AlMonther Abdulhafeez <a href="https://github.com/AlMonther9"
+* AlMonther Abdulhafeez <a href="https://github.com/AlMonther9" a>
 <br>
 
-> Project developed during the [Holberton School](https://www.holbertonschool.com/) program.
+> Project developed during the [Alx, Holberton School](https://www.holbertonschool.com/) program.
