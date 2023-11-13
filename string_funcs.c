@@ -1,30 +1,30 @@
 #include "main.h"
 
 /**
- * _strcmp - compares two strings
- * @s1: pointer 1
- * @s2: pointer 2
- * Return: result
+ * _strcmp - A known standard function that compares two strings.
+ * @p1: first pointer.
+ * @p2: second pointer.
+ * Return: result.
  */
 
-int _strcmp(char *s1, char *s2)
+int _strcmp(char *p1, char *p2)
 {
-	while (*s1 && *s2)
+	while (*p1 && *p2)
 	{
-		if (*s1 != *s2)
-			return (*s1 - *s2);
+		if (*p1 != *p2)
+			return (*p1 - *p2);
 
-		s1++;
-		s2++;
+		p1++;
+		p2++;
 	}
 	return (0);
 }
 
 /**
- * _strcpy - function that copies the string pointed to by src
- * @dest: pointer
- * @src: ponter
- * Return: @dest
+ * _strcpy - A known standard function that copies the string pointed to by source (src).
+ * @dest: pointer 2 destribute.
+ * @src: pointer 2 source.
+ * Return: @dest.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -41,10 +41,10 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _split - split string
- * @str: string
- * @sep: separator
- * Return: divided path
+ * _split - f 2 split string.
+ * @str: string.
+ * @sep: separator.
+ * Return: divided path.
  */
 
 char **_split(char *str, char *sep)
@@ -71,9 +71,9 @@ char **_split(char *str, char *sep)
 }
 
 /**
- * _strcat - function that concatenates two strings
- * @dest: string
- * @src: string
+ * _strcat - A function that concatenates two strings.
+ * @dest: first string.
+ * @src: second string.
  * Return: @dest
  */
 
@@ -94,20 +94,18 @@ char *_strcat(char *dest, char *src)
 }
 
 /**
- * _strlen - string length
- * @s: string
- * Return: result
+ * _strlen - string length.
+ * @strl: string.
+ * Return: result.
  *
  */
 
-int _strlen(char *s)
+int _strlen(char *strl)
 {
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (strl[i] != '\0')
 		i++;
 
 	return (i);
 }
-
-
