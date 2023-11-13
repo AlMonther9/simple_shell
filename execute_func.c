@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * execute - execute command path, child process
- * @args: arguments
- * Return: exit status
+ * execute - a function that executes the command path, +child process.
+ * @args: arguments.
+ * Return: Exit status.
  */
 
 int execute(char **args)
