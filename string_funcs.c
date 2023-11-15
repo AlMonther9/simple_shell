@@ -21,7 +21,7 @@ int _strcmp(char *p1, char *p2)
 }
 
 /**
- * _strcpy - A known standard function that copies the string pointed to by source (src).
+ * _strcpy - A known function that copies string pointed to by source (src).
  * @dest: pointer 2 destribute.
  * @src: pointer 2 source.
  * Return: @dest.
